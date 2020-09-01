@@ -1,0 +1,80 @@
+body {
+    background-color: #1d1750fb;
+    color: #ffffff;
+    background-image: url(images/bg-image.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+}
+
+.form-control {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 22px;
+    border: none;
+    border-radius: 25px;
+}
+
+.btn {
+    border-radius: 1.5rem;
+    padding: 9px 20px;
+}
+
+.btn-privious {
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.search-box {
+    position: relative;
+}
+
+#songInput {
+    color: white;
+}
+
+#songInput:focus {
+    color: black;
+}
+
+.search-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+
+
+/* Result section */
+#fancy-result {
+    display: none;
+}
+
+.single-result {
+    background: rgba(88, 143, 37, 0.404);
+    border-radius: 15px;
+    transition: all 5s;
+}
+
+
+/* Lyrics section */
+.single-lyrics {
+    display: none;
+}
+
+.go-back {
+    color: blue;
+    font-size: 25px;
+    border: 3px solid blue;
+    border-radius: 30px;
+    padding: 2px 30px !important;
+    margin-bottom: 2%;
+}
+
+#lyrics {
+    font-size: 20px;
+    font-style: italic;
+}
